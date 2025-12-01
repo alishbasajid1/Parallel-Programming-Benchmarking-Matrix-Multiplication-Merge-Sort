@@ -1,4 +1,4 @@
-# Parallel-Programming-Benchmarking-Matrix-Multiplication-Merge-Sort
+# Parallel Programming Benchmarking Matrix Multiplication Merge Sort
 
 ## Assignment Overview
 
