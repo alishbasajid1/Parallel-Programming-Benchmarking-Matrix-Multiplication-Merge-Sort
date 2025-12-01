@@ -2,7 +2,7 @@
 
 ## Assignment Overview
 
-This assignment focuses on compiling, executing, and benchmarking different parallel programming paradigms—**Sequential**, **Pthreads**, **OpenMP**, and **MPI**—applied to both **matrix multiplication** and **merge sort** algorithms. The goal is to analyze and compare the performance and scalability of these implementations across various problem sizes, ranging from small (5x4, 10x10) to very large matrices (2000x2000, 5000x5000) and array sizes (5 to 5000 elements).[file:1]
+This assignment focuses on compiling, executing, and benchmarking different parallel programming paradigms—**Sequential**, **Pthreads**, **OpenMP**, and **MPI**—applied to both **matrix multiplication** and **merge sort** algorithms. The goal is to analyze and compare the performance and scalability of these implementations across various problem sizes, ranging from small (5x4, 10x10) to very large matrices (2000x2000, 5000x5000) and array sizes (5 to 5000 elements).
 
 
 ## Parallel Programming Models
@@ -12,11 +12,11 @@ This project implements four distinct parallelization approaches:
 - **Sequential**: Single-threaded baseline implementation for performance comparison
 - **Pthreads**: Low-level POSIX threading with fine-grained control over thread management and synchronization
 - **OpenMP**: High-level shared-memory parallelism using compiler directives and automatic thread management
-- **MPI**: Message-passing interface for distributed-memory parallel computing across multiple processes[file:1]
+- **MPI**: Message-passing interface for distributed-memory parallel computing across multiple processes
 
 ## Project Structure
 
-'''
+```
 .
 ├── matrix_multiplication/
 │ ├── bin/
@@ -68,7 +68,7 @@ This project implements four distinct parallelization approaches:
 │ ├── randomarray.py
 │ └── testscript.sh
 └── README.md
-'''
+```
 
 ## Key Components
 **Makefile**: Automates compilation of all four implementations with optimized flags (-O2, -fopenmp, -pthread) and organizes executables into the bin/ directory. Simply run make to build all versions.
@@ -81,15 +81,15 @@ This project implements four distinct parallelization approaches:
 
 ## Building the Project
 
-'''
+```
 Clone the repository
-git clone <https://github.com/mperlet/matrix_multiplication.git >
+git clone https://github.com/mperlet/matrix_multiplication.git 
 cd assignment4
 
 Run the test script (generates data, compiles, and benchmarks)
 chmod +x Test-Script.sh
 ./Test-Script.sh
-'''
+```
 
 ## Insights Gained:
 **Matrix Multiplication Findings:**
