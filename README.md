@@ -82,11 +82,11 @@ This project implements four distinct parallelization approaches:
 ## Building the Project
 
 ```
-Clone the repository
+# Clone the repository
 git clone https://github.com/mperlet/matrix_multiplication.git 
 cd assignment4
 
-Run the test script (generates data, compiles, and benchmarks)
+# Run the test script (generates data, compiles, and benchmarks)
 chmod +x Test-Script.sh
 ./Test-Script.sh
 ```
